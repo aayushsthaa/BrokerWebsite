@@ -1,4 +1,4 @@
-You can test the live application here: **[https://urbaniva.onrender.com]**
+You can test the live application here: https://urbaniva.onrender.com
 
 The credentials for the accounts are given below:
 
