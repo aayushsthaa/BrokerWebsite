@@ -30,7 +30,7 @@ const Register = () => {
 
   return (
     <div className="w-full h-[90vh] bg-surface-off-white flex justify-center items-center">
-      <div className="bg-white w-250 h-160 flex items-center rounded-4xl shadow-xl overflow-hidden">
+      <div className="bg-white w-250 h-140 flex items-center rounded-4xl shadow-xl overflow-hidden">
         {/* Left Side: Image */}
         <div className="flex-1 h-full hidden md:block self-stretch">
           <img
