@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Manrope';
+    src:url('./assets/fonts/Manrope-Regular.ttf')
+}
+@font-face{
+    font-family: 'Manrope-Bold';
+    src:url('./assets/fonts/Manrope-Bold.ttf')
+}
+@font-face{
+    font-family: 'Manrope-ExtraBold';
+    src:url('./assets/fonts/Manrope-ExtraBold.ttf')
+}
+@font-face{
+    font-family: 'Manrope-SemiBold';
+    src:url('./assets/fonts/Manrope-SemiBold.ttf')
+}
+
+
+@import "tailwindcss";
+
+@theme{
+    --font-Manrope: 'Manrope','Arial', sans-serif;
+    --font-Manrope-Bold: 'Manrope-Bold','Arial', sans-serif;
+    --font-Manrope-ExtraBold: 'Manrope-ExtraBold','Arial', sans-serif;
+    --font-Manrope-SemiBold: 'Manrope-SemiBold','Arial', sans-serif;
+    --color-slate-darkest: #111C2D;
+    --color-slate-dark: #0F172A;
+    --color-slate-medium: #64748B;
+    --color-slate-light: #45464D;
+    --color-surface-off-white: #F7F9FB;
+    --color-accent: #E2E8F0;
+}
+
+@layer base {
+  body {
+    font-family: 'Manrope', sans-serif;
+  }
+}
